@@ -21,12 +21,15 @@ set splitbelow
 set splitright
 
 " Remaps
+map <C-n> :NERDTreeToggle<CR>
 inoremap jk <ESC>
 nnoremap <Tab> :bn<CR>
 nnoremap <S-Tab> :bp<CR>
-map <C-n> :NERDTreeToggle<CR>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " search settings
 set ignorecase
 set smartcase
-
