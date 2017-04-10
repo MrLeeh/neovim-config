@@ -1,12 +1,15 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
+Plug 'tamelion/neovim-molokai'
 
 call plug#end()
 
+" Colorscheme
+colorscheme molokai
+
 " Common tweaks
 set nobackup
-
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
