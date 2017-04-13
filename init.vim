@@ -1,12 +1,12 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
-Plug 'tamelion/neovim-molokai'
+Plug 'sickill/vim-monokai'
 
 call plug#end()
 
 " Colorscheme
-colorscheme molokai
+colorscheme monokai
 
 " Common tweaks
 set nobackup
