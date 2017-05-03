@@ -4,6 +4,8 @@ Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'sickill/vim-monokai'
 Plug 'nvie/vim-flake8'
 Plug 'davidhalter/jedi-vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'kien/ctrlp.vim'
 
 call plug#end()
 
