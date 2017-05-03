@@ -2,6 +2,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'sickill/vim-monokai'
+Plug 'nvie/vim-flake8'
 
 call plug#end()
 
