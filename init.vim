@@ -6,6 +6,8 @@ Plug 'nvie/vim-flake8'
 Plug 'davidhalter/jedi-vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
+Plug 'sbdchd/neoformat'
+
 
 call plug#end()
 
