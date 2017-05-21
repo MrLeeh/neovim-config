@@ -7,6 +7,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'sbdchd/neoformat'
+Plug 'rbgrouleff/bclose.vim'
 
 
 call plug#end()
@@ -15,6 +16,7 @@ call plug#end()
 colorscheme monokai
 
 " Common tweaks
+let mapleader=','
 set nobackup
 set tabstop=4
 set shiftwidth=4
@@ -38,6 +40,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+nnoremap <silent> <Leader>bd :Bclose<CR>
 
 " search settings
 set ignorecase
