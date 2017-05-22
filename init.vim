@@ -8,6 +8,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'sbdchd/neoformat'
 Plug 'rbgrouleff/bclose.vim'
+Plug 'majutsushi/tagbar'
 
 
 call plug#end()
@@ -33,6 +34,7 @@ set splitright
 
 " Remaps
 map <C-n> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 inoremap jk <ESC>
 nnoremap <Tab> :bn<CR>
 nnoremap <S-Tab> :bp<CR>
