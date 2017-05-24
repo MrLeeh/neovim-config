@@ -47,3 +47,6 @@ nnoremap <silent> <Leader>bd :Bclose<CR>
 " search settings
 set ignorecase
 set smartcase
+
+" filetype settings
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
