@@ -11,7 +11,6 @@ Plug 'rbgrouleff/bclose.vim'
 Plug 'majutsushi/tagbar'
 Plug 'kshenoy/vim-signature'
 
-
 call plug#end()
 
 " Colorscheme
@@ -49,3 +48,6 @@ nnoremap <silent> <Leader>bd :Bclose<CR>
 " search settings
 set ignorecase
 set smartcase
+
+" filetype settings
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
