@@ -8,6 +8,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'sbdchd/neoformat'
 Plug 'rbgrouleff/bclose.vim'
+Plug 'majutsushi/tagbar'
+Plug 'kshenoy/vim-signature'
 
 
 call plug#end()
@@ -33,6 +35,7 @@ set splitright
 
 " Remaps
 map <C-n> :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 inoremap jk <ESC>
 nnoremap <Tab> :bn<CR>
 nnoremap <S-Tab> :bp<CR>
@@ -41,6 +44,7 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <silent> <Leader>bd :Bclose<CR>
+
 
 " search settings
 set ignorecase
