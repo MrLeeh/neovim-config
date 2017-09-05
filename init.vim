@@ -10,6 +10,7 @@ Plug 'sbdchd/neoformat'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'majutsushi/tagbar'
 Plug 'kshenoy/vim-signature'
+Plug 'bling/vim-airline'
 
 call plug#end()
 
@@ -48,6 +49,9 @@ nnoremap <silent> <Leader>bd :Bclose<CR>
 " search settings
 set ignorecase
 set smartcase
+set wildignore=*/venv/*,*/.git/*,*/site/*
 
 " filetype settings
-autocmd Filetype html setlocal ts=2 sts=2 sw=2
+autocmd Filetype html setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd Filetype markdown setlocal textwidth=80
+autocmd Filetype yaml setlocal shiftwidth=2 tabstop=2 softtabstop=2
