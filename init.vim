@@ -36,7 +36,7 @@ set splitright
 
 " Remaps
 map <C-n> :NERDTreeToggle<CR>
-nmap <F8> :TagbarToggle<CR>
+nmap <F8> :TagbarOpenAutoClose<CR>
 inoremap jk <ESC>
 nnoremap <Tab> :bn<CR>
 nnoremap <S-Tab> :bp<CR>
