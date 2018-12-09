@@ -11,6 +11,7 @@ Plug 'rbgrouleff/bclose.vim'
 Plug 'majutsushi/tagbar'
 Plug 'kshenoy/vim-signature'
 Plug 'bling/vim-airline'
+Plug 'neomake/neomake'
 
 call plug#end()
 
@@ -56,3 +57,8 @@ set wildignore=*/venv/*,*/.git/*,*/site/*
 autocmd Filetype html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd Filetype markdown setlocal textwidth=80
 autocmd Filetype yaml setlocal shiftwidth=2 tabstop=2 softtabstop=2
+
+" When writing a buffer (no delay).
+call neomake#configure#automake('w')
+let g:neomake_open_list = 2
+let g:neomake_python_enabled_makers = ['pep8', 'pylint', 'pydocstyle', 'mypy']
