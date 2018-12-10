@@ -30,7 +30,7 @@ set mouse=a
 set number
 set cursorline
 set nowrap
-set colorcolumn=80
+set colorcolumn=88
 set noswapfile
 set splitbelow
 set splitright
