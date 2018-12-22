@@ -47,7 +47,6 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <silent> <Leader>bd :Bclose<CR>
 
-
 " search settings
 set ignorecase
 set smartcase
@@ -60,5 +59,5 @@ autocmd Filetype yaml setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 " When writing a buffer (no delay).
 call neomake#configure#automake('w')
-let g:neomake_open_list = 2
-let g:neomake_python_enabled_makers = ['pep8', 'pylint', 'pydocstyle', 'mypy']
+" let g:neomake_open_list = 2
+let g:neomake_python_enabled_makers = ['flake8', 'pydocstyle', 'mypy']
