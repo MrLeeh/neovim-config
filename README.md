@@ -15,3 +15,5 @@ $ git clone https://github.com/MrLeeh/neovim-config.git ~/.config/nvim
 ```
 
 For system-wide installation place the config file in `/usr/share/nvim/sysinit.vim`.
+
+Start neovim and run `:PlugInstall` command.
