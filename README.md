@@ -11,7 +11,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 Clone this repository in your ~/.config directory with the following command
 
 ```bash
-$ git clone https://github.com/MrLeeh/neovim-config.git ~/.config/nvim
+$ git clone https://github.com/stlehmann/neovim-config.git ~/.config/nvim
 ```
 
 For system-wide installation place the config file in `/usr/share/nvim/sysinit.vim`.
