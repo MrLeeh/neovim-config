@@ -12,6 +12,7 @@ Plug 'majutsushi/tagbar'
 Plug 'kshenoy/vim-signature'
 Plug 'bling/vim-airline'
 Plug 'neomake/neomake'
+Plug 'python-rope/ropevim'
 
 call plug#end()
 
