@@ -41,8 +41,9 @@ set splitright
 map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarOpenAutoClose<CR>
 inoremap jk <ESC>
-nnoremap <Tab> :bn<CR>
-nnoremap <S-Tab> :bp<CR>
+nnoremap <Tab> :tabnex<CR>
+nnoremap <S-Tab> :tabprev<CR>
+nnoremap <C-T> :tabnew<CR>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
