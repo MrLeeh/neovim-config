@@ -13,6 +13,7 @@ Plug 'kshenoy/vim-signature'
 Plug 'bling/vim-airline'
 Plug 'neomake/neomake'
 Plug 'python-rope/ropevim'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
